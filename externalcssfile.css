@@ -1,0 +1,26 @@
+#sec3{
+    color: blueviolet;
+    background-color: antiquewhite;
+}
+article > section{
+    background-color: cornflowerblue;
+}
+article{
+    margin: 10px;
+    border: 2px solid rgb(235, 161, 161);
+    
+}
+section{
+    padding: 5px;
+    font-family: cursive;
+    font-size: 20px;
+}
+body{
+    background-image: url('rohit-tandon-9wg5jCEPBsw-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* opacity: 0.5;
+     */
+     z-index: -1;
+}
