@@ -24,3 +24,17 @@ body{
      
      z-index: -1;
 }
+nav ul{
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;  
+}
+nav ul li a:hover{
+    background-color: rgb(153, 224, 224);
+}

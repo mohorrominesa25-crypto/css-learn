@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>box model</title>
+   
     
     <style>
         article{
@@ -18,9 +19,32 @@
             box-shadow: 20px 50px 80px black;
             width: 1200px;
         }
+        nav ul{
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;  
+}
+nav ul li a:hover{
+    background-color: rgb(153, 224, 224);
+}
     </style>
 </head>
 <body>
+     <nav>
+        <ul>
+            <li><a href="css.html">CSS</a></li>
+            <li><a href="practice.html">Practice</a></li>
+            <li><a href="more.html">More</a></li>
+            <li><a href="emmet.html">Emmet</a></li>
+            <li><a href="nav.html">Navigation</a></li>
+        </ul>
+    </nav>
     <main>
         <article>
             <h1>First article</h1>

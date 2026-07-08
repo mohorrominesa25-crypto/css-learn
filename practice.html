@@ -4,16 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice CSS</title>
+    
     <style>   
     /* internal css */
         #sec2{
             color: rgb(50, 221, 31);
             background-color: bisque;
         }
+        nav ul{
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;  
+}
+nav ul li a:hover{
+    background-color: rgb(153, 224, 224);
+}
     </style>
     <link rel="stylesheet" href="externalcssfile.css">
 </head>
 <body>
+     <nav>
+        <ul>
+            <li><a href="css.html">CSS</a></li>
+            <li><a href="practice.html">Practice</a></li>
+            <li><a href="more.html">More</a></li>
+            <li><a href="emmet.html">Emmet</a></li>
+            <li><a href="nav.html">Navigation</a></li>
+        </ul>
+    </nav>
    
      <main><article>
         <section style="color:lightblue " >  <!-- inline css -->
